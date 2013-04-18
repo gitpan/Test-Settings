@@ -16,4 +16,4 @@ name: Test-Settings
 resources:
   homepage: https://github.com/wolfsage/Test-Settings
   repository: git://github.com/wolfsage/Test-Settings.git
-version: 0.001
+version: 0.002

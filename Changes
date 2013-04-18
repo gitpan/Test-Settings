@@ -1,4 +1,10 @@
 0.001 Sun, Apr 14, 2013
 
+  * Backwards compatibility fix for Exporter
+
+  * Add Test::S module for command-line modification of settings
+
+0.002 Thu, Apr 18, 2013
+
   * First release
 
