@@ -1,6 +1,6 @@
 package Test::Settings;
 {
-  $Test::Settings::VERSION = '0.002';
+  $Test::Settings::VERSION = '0.003';
 }
 
 use strict;
@@ -44,7 +44,7 @@ our %EXPORT_TAGS = (
 # Things we currently know about
 my %flags = (
 	want_smoke           => 'AUTOMATED_TESTING',
-	want_non_interactive => 'NON_INTERACTIVE',
+	want_non_interactive => 'NONINTERACTIVE_TESTING',
 	want_extended        => 'EXTENDED_TESTING',
 	want_author          => 'AUTHOR_TESTING',
 	want_release         => 'RELEASE_TESTING',
@@ -184,7 +184,7 @@ Test::Settings - Ask or tell when certain types of tests should be run
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 
@@ -376,6 +376,9 @@ L<Test::S> - Change test settings on the command line
 L<Test::DescribeMe> - Tell test runners what kind of test you are
 
 L<Test::Is> - Skip test in a declarative way, following the Lancaster Consensus
+
+L<https://github.com/Perl-Toolchain-Gang/toolchain-site/blob/master/lancaster-consensus.md> -
+The Annotated Lancaster Consensus
 
 =head1 AUTHOR
 

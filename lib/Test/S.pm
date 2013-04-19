@@ -1,6 +1,6 @@
 package Test::S;
 {
-  $Test::S::VERSION = '0.002';
+  $Test::S::VERSION = '0.003';
 }
 
 use strict;
@@ -46,7 +46,7 @@ Test::S - Change test settings on the command line
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 
